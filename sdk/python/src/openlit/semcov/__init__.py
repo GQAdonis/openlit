@@ -45,6 +45,7 @@ class SemanticConvetion:
     GEN_AI_REQUEST_AUDIO_VOICE = "gen_ai.request.audio_voice"
     GEN_AI_REQUEST_AUDIO_RESPONSE_FORMAT = "gen_ai.request.audio_response_format"
     GEN_AI_REQUEST_AUDIO_SPEED = "gen_ai.request.audio_speed"
+    GEN_AI_REQUEST_AUDIO_SETTINGS = "gen_ai.request.audio_settings"
     GEN_AI_REQUEST_FINETUNE_STATUS = "gen_ai.request.fine_tune_status"
     GEN_AI_REQUEST_FINETUNE_MODEL_SUFFIX = "gen_ai.request.fine_tune_model_suffix"
     GEN_AI_REQUEST_FINETUNE_MODEL_EPOCHS = "gen_ai.request.fine_tune_n_epochs"
@@ -52,6 +53,10 @@ class SemanticConvetion:
     GEN_AI_REQUEST_FINETUNE_BATCH_SIZE = "gen_ai.request.fine_tune_batch_size"
     GEN_AI_REQUEST_VALIDATION_FILE = "gen_ai.request.validation_file"
     GEN_AI_REQUEST_TRAINING_FILE = "gen_ai.request.training_file"
+
+    GEN_AI_REQUEST_IMAGE_SIZE = "gen_ai.request.image_size"
+    GEN_AI_REQUEST_IMAGE_QUALITY = "gen_ai.request.image_quality"
+    GEN_AI_REQUEST_IMAGE_STYLE = "gen_ai.request.image_style"
 
     # GenAI Usage
     GEN_AI_USAGE_PROMPT_TOKENS = "gen_ai.usage.prompt_tokens"
@@ -63,9 +68,6 @@ class SemanticConvetion:
     GEN_AI_RESPONSE_ID = "gen_ai.response.id"
     GEN_AI_RESPONSE_FINISH_REASON = "gen_ai.response.finish_reason"
     GEN_AI_RESPONSE_IMAGE = "gen_ai.response.image"  # Not used directly in code yet
-    GEN_AI_RESPONSE_IMAGE_SIZE = "gen_ai.request.image_size"
-    GEN_AI_RESPONSE_IMAGE_QUALITY = "gen_ai.request.image_quality"
-    GEN_AI_RESPONSE_IMAGE_STYLE = "gen_ai.request.image_style"
 
     # GenAI Content
     GEN_AI_CONTENT_PROMPT = "gen_ai.prompt"
@@ -96,6 +98,7 @@ class SemanticConvetion:
     GEN_AI_SYSTEM_GROQ = "groq"
     GEN_AI_SYSTEM_OLLAMA = "ollama"
     GEN_AI_SYSTEM_GPT4ALL = "gpt4all"
+    GEN_AI_SYSTEM_ELEVENLABS = "elevenlabs"
     GEN_AI_SYSTEM_LANGCHAIN = "langchain"
     GEN_AI_SYSTEM_LLAMAINDEX = "llama_index"
     GEN_AI_SYSTEM_HAYSTACK = "haystack"

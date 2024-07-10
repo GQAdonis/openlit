@@ -41,7 +41,7 @@
     {
       "name": "Discord",
       "icon": "discord",
-      "url": "https://discord.com/invite/rjvTm6zd"
+      "url": "https://discord.gg/CQnXwNT3"
     }
   ],
   "navigation": [
@@ -75,7 +75,8 @@
             "latest/integrations/huggingface",
             "latest/integrations/bedrock",
             "latest/integrations/vertexai",
-            "latest/integrations/groq"
+            "latest/integrations/groq",
+            "latest/integrations/elevenlabs"
           ]
         },
         {
@@ -113,6 +114,7 @@
       "pages": [
         "latest/features/tracing",
         "latest/features/metrics",
+        "latest/features/gpu",
         "latest/features/pricing",
         "latest/features/multiple-db"
       ],
@@ -146,7 +148,7 @@
   "footerSocials": {
     "github": "https://github.com/openlit/",
     "slack": "https://join.slack.com/t/openlit/shared_invite/zt-2etnfttwg-TjP_7BZXfYg84oAukY8QRQ",
-    "discord": "https://discord.com/invite/rjvTm6zd",
+    "discord": "https://discord.gg/CQnXwNT3",
     "twitter": "https://twitter.com/openlit_io",
     "linkedin": "https://www.linkedin.com/company/openlit/"
   }
